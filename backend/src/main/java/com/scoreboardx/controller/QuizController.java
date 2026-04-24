@@ -24,12 +24,12 @@ public class QuizController {
     }
 
     @GetMapping("/run")
-    public ResponseEntity<RunResponse> run(@RequestParam String regNo) throws InterruptedException {
+    public ResponseEntity<RunResponse> run(@RequestParam(name = "regNo") String regNo) throws InterruptedException {
         return ResponseEntity.ok(quizService.run(regNo));
     }
 
     @PostMapping("/submit")
-    public ResponseEntity<SubmitResponse> submit(@RequestParam String regNo) {
+    public ResponseEntity<SubmitResponse> submit(@RequestParam(name = "regNo") String regNo) {
         return ResponseEntity.ok(quizService.submit(regNo));
     }
 
