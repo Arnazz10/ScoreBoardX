@@ -1,4 +1,4 @@
-# 🏆 ScoreBoardX
+#  ScoreBoardX
 
 [![Spring Boot](https://img.shields.io/badge/Backend-Spring%20Boot%203.3.2-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/Frontend-React%2018-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
@@ -7,11 +7,11 @@
 
 **ScoreBoardX** is a high-performance, real-time Quiz Leaderboard System designed for high-concurrency environments. It features a sleek, modern UI and a robust Spring Boot backend that integrates with external quiz APIs to provide live rankings and automated score submission.
 
-## ✨ Live Preview
+##  Live Preview
 
 ![ScoreBoardX Live Preview](./preview.png)
 
-## 🚀 Features
+##  Features
 
 - **Real-time Leaderboard**: Instant updates as participants score points.
 - **Poll Synchronization**: Automated polling of external quiz data with deduplication.
@@ -19,7 +19,7 @@
 - **Modern UI**: A premium, dark-themed dashboard built with React and Tailwind CSS.
 - **Deployment Ready**: Fully Dockerized for seamless scaling and production deployment.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Framework**: Spring Boot 3.3.2 (Java 21)
@@ -33,7 +33,7 @@
 - **Styling**: Tailwind CSS (Custom Theme)
 - **State Management**: React Hooks (useMemo, useEffect, useState)
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 - Docker & Docker Compose (Recommended)
@@ -63,7 +63,7 @@ npm install
 npm run dev
 ```
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
@@ -71,7 +71,7 @@ npm run dev
 | `POST` | `/api/submit?regNo={regNo}` | Submit finalized leaderboard to central system |
 | `GET` | `/api/progress` | Subscribe to real-time progress updates (SSE) |
 
-## 🚢 Deployment Readiness
+##  Deployment Readiness
 
 ScoreBoardX is production-ready with:
 - **Environment Variable Support**: Configure `VITE_API_BASE` for different environments.
@@ -80,4 +80,4 @@ ScoreBoardX is production-ready with:
 
 ---
 
-Built with ❤️ by [Arnazz10](https://github.com/Arnazz10)
+Built by [Arnazz10](https://github.com/Arnazz10)
